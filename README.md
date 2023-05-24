@@ -28,9 +28,5 @@ Modification de la quantité d’un produit au panier
 Validation du panier et génération d’une commande liée à partir du panier.
 
 
-Merci de créer une configuration docker pour charger les bases de données et technologies qui y seront liées.
 
-
-
-Merci de déposer sur un Git privée ou public le test technique,
 
