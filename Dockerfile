@@ -17,9 +17,9 @@ COPY . .
 ENV PORT=3000
 ENV DB_HOST=postgres
 ENV DB_PORT=5432
-ENV DB_NAME=mydatabase
-ENV DB_USER=myuser
-ENV DB_PASSWORD=mypassword
+ENV DB_NAME=strime
+ENV DB_USER=pierre
+ENV DB_PASSWORD=andrieu
 
 
 EXPOSE $PORT

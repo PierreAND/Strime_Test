@@ -7,16 +7,16 @@ const createCart = async () => {
 }
 
 const addToCart = async (cartId, productId, quantity) => {
-  const queryText = 'INSERT INTO cart_items";
+  const requestText = 'INSERT INTO cart_items';
   const values = [cartId, productId, quantity];
-  const result = await db.query(queryText, values);
+  const result = await db.request(requestText, values);
   return result.rows[0];
 }
 
 const removeFromCart = async (cartItemId) => {
-  const queryText = 'DELETE FROM cart_items';
+  const requestText = 'DELETE FROM cart_items';
      const values = [cartItemId];
-  const result = await db.query(queryText, values);
+  const result = await db.request(requestText, values);
   return result.rows[0];
 };
 module.exports = {
