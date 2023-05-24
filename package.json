@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PierreAND/Strime_Test/issues"
   },
-  "homepage": "https://github.com/PierreAND/Strime_Test#readme"
+  "homepage": "https://github.com/PierreAND/Strime_Test#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
